@@ -71,7 +71,14 @@
     var words = input.value.match(/\b[-?(\w+)?]+\b/gi);
     var sentences = input.value.split(/[.|!|?]/g);
   function showDiv() {
-   document.getElementById('results').style.display = "block";
+    var content1 = document.getElementById(code).value;
+     var content2 = document.getElementById(file-selector).value;
+    if(content.length>1 || content2 !=""){
+    document.getElementById('results').style.display = "block";
+    }
+   else{
+    window.alert ("There is no code to analyze! Please Upload the code!");
+   }
 }
     function hideDiv() {
    document.getElementById('results').style.display = "none";
