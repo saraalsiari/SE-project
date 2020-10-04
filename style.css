@@ -1,5 +1,5 @@
 /* #f6f6f6 - #ffbb91 - #ff8e6e - #515070 */
-
+ /*
 body {
   background: #FFFFFF;
   color: #ffbb91;
@@ -9,7 +9,7 @@ body {
 h1 {
   color: #515070;
 }
-
+*/
 footer {
   color: #f6f6f6;
             position: fixed;
@@ -17,6 +17,7 @@ footer {
             bottom: 0;
             width: 100%;
             /* Height of the footer*/
+
             height: 40px;
             background: #ff8e6e;
         }
@@ -47,7 +48,7 @@ input.button_clear {
       }
 
 
-
+*/
 
 
 
