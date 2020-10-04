@@ -70,16 +70,13 @@ body {
   color: #111;
 }
 
-.container {
+div.center{
   margin: 2% auto;
   padding: 15px;
-  background-color: #FFFFFF;
+  background-color: #ffbb91;
   -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
 }
-div.center {
-background-color: #ffbb91;
-      }
 
 h1 {
   font-size: 3rem;
