@@ -45,6 +45,8 @@
   <input class="button" type="submit" value="Submit">
    <input class="button" type="button" value="Show Results" onclick="showDiv()">
   <input class="button_clear" type="reset" value="Clear!" onclick="hideDiv()">
+  <br><br>
+   <input class="button" type="button" value="Read the file" onclick="readFile(document.getElementById("file-selector").files[0])">
 </form>
 <br>
 <br>
@@ -103,6 +105,23 @@
   // keyword finding logic
 
 });
+    
+    
+    function readFile(file) {
+  const reader = new FileReader();
+  reader.addEventListener('load', (event) => {
+    const result = event.target.result;
+    // Do something with result
+  });
+
+  reader.addEventListener('progress', (event) => {
+    if (event.loaded && event.total) {
+      const percent = (event.loaded / event.total) * 100;
+      console.log(`Progress: ${Math.round(percent)}`);
+    }
+  });
+  reader.readAsDataURL(file);
+}
   
   </script>
   
