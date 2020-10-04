@@ -251,10 +251,11 @@ input.button:hover {
       background: #ff8e6e;
       color: white;
     }
-input:hover[type="submit"] 
-		{
-			background: red;
-		}
+input.button_clear:hover {
+      background: #ff8e6e;
+      color: white;
+    }
+
 footer {
   color: #f6f6f6;
   position: fixed;
