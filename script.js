@@ -1,4 +1,4 @@
-let input = document.querySelector(input[id="file-selector"]);
+let input = document.querySelector('input');
 let textarea = document.querySelector('textarea');
  
 input.addEventListener('change', () => {
