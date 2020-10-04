@@ -76,6 +76,9 @@ body {
   -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
 }
+div.center {
+background-color: #ffbb91;
+      }
 
 h1 {
   font-size: 3rem;
@@ -245,4 +248,14 @@ input.button_clear {
         display: inline-block;
         font-size: 16px;
       }
+footer {
+  color: #f6f6f6;
+            position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/
 
+            height: 40px;
+            background: #ff8e6e;
+        }
