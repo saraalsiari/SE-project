@@ -10,6 +10,7 @@ h1 {
   color: #515070;
 }
 */
+/*
 footer {
   color: #f6f6f6;
             position: fixed;
@@ -17,35 +18,16 @@ footer {
             bottom: 0;
             width: 100%;
             /* Height of the footer*/
-
+/*
             height: 40px;
             background: #ff8e6e;
-        }
+        }*/
+*/
 /*
 div.center {
 background-color: #ffbb91;
       }*/
 
-input.button {
-        background-color: #515070; /* Green */
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-      }
-input.button_clear {
-        background-color: #515070; /* Green */
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-      }
 
 
 */
@@ -243,3 +225,24 @@ textarea:focus {
     border: 1px solid #DDD;
   }
 }
+input.button {
+        background-color: #515070; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
+input.button_clear {
+        background-color: #515070; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
+
