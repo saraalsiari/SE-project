@@ -42,6 +42,27 @@
   });
 </script>
   
+      <div class="row">
+      <div class="col-sm-7 col-md-6 col-lg-5">
+
+        <div class="form-group">
+          <label for="file" class="sr-only">File</label>
+          <div class="input-group">
+            <input type="text" name="filename" class="form-control" placeholder="No file selected" readonly>
+            <span class="input-group-btn">
+              <div class="btn btn-default  custom-file-uploader">
+                <input type="file" name="file" onchange="this.form.filename.value = this.files.length ? this.files[0].name : ''" />
+                Select a file
+              </div>
+            </span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  
+  </form>
+  
    <input class="button" type="button" value="Show Results" onclick="showDiv()">
   <input class="button_clear" type="reset" value="Clear!" onclick="hideDiv()">
 </form>
