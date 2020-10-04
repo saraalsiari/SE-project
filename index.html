@@ -17,7 +17,7 @@
 <br>
 
 <form action="/action_page.php" >
-<textarea id="code" name="code" rows="20" cols="50">
+<textarea id="code" name="code" placeholder="Enter your code here..." rows="20" cols="50">
 
   </textarea>
 
@@ -32,10 +32,49 @@
 <br>
 
 <div id="results"  style="display:none;" class="answer_list" > The results:</div>
+  
+  <div class="output row">
+    <div>Characters: <span id="characterCount">0</span></div>
+    <div>Words: <span id="wordCount">0</span></div>
+  </div>
+  <div class="output row">
+    <div>Sentences: <span id="sentenceCount">0</span></div>
+    <div>Paragraphs: <span id="paragraphCount">0</span></div>
+  </div>
+  <div class="output row">
+    <div>Reading Time: <span id="readingTime">0</span></div>
+    <div id="readability">Show readability score.</div>
+  </div>
+  <div class="keywords">
+    Top keywords:
+    <ul id="topKeywords">
+    </ul>
+  </div>
+  
+  
+  
   <script>
+    
+    
+    
+    
+    var input = document.querySelectorAll('textarea')[0];
+    var words = input.value.match(/\b[-?(\w+)?]+\b/gi);
+    var sentences = input.value.split(/[.|!|?]/g);
   function showDiv() {
    document.getElementById('results').style.display = "block";
 }
+    input.addEventListener('keyup', function() {
+
+  // word counter logic
+
+  // sentence count logic
+
+  // reading time calculation
+
+  // keyword finding logic
+
+});
   
   </script>
 </body>
