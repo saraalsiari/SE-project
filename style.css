@@ -36,7 +36,7 @@ input.button {
         font-size: 16px;
       }
 input.button_clear {
-        background-color: red; /* Green */
+        background-color: #515070; /* Green */
         border: none;
         color: white;
         padding: 15px 32px;
