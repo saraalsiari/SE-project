@@ -25,6 +25,15 @@
   </div>
   <br>
   <input class="button" type="submit" value="Submit">
+  <!-- The `multiple` attribute lets users select multiple files. -->
+<input type="file" id="file-selector" accept=".txt">
+<script>
+  const fileSelector = document.getElementById('file-selector');
+  fileSelector.addEventListener('change', (event) => {
+    const fileList = event.target.files;
+    console.log(fileList);
+  });
+</script>
    <input class="button" type="button" value="Show Results" onclick="showDiv()">
   <input class="button_clear" type="reset" value="Clear!" onclick="hideDiv()">
 </form>
